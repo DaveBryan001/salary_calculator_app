@@ -22,8 +22,10 @@ html{
 
 label, input {
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
     justify-content: center;
+    justify-items: center;
+    width: fit-content;
 }
 
 button {
