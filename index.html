@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary Calculator</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="shortcut icon" href="icons8-heavy-dollar-sign-16.png" type="image/x-icon">
 </head>
@@ -12,10 +12,10 @@
     <div class="container">
         <h1>Salary Calculator</h1>
         <form id="salaryForm">
-            <label for="netSalary">Desired Net Salary:</label>
+            <label for="netSalary">Desired Net Salary (GHS):</label>
             <input type="number" id="netSalary" name="netSalary">
             
-            <label for="allowances">Allowances:</label>
+            <label for="allowances">Allowances (GHS):</label>
             <input type="number" id="allowances" name="allowances">
             
             <button type="button" onclick="calculateSalary()">Calculate</button>
@@ -23,6 +23,6 @@
 
         <div id="results"></div>
     </div>
-    <script src="script.js"></script>
+    <script src="fin.js"></script>
 </body>
 </html>
