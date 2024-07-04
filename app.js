@@ -42,7 +42,7 @@ function calculateSalary() {
   }
 
   function calculateGrossSalary(net, allowances) {
-      let estimatedGross = net + allowances + 500;
+      let estimatedGross = net + allowances + 1100;
       let netCalculated;
 
       do {
